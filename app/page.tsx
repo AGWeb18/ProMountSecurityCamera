@@ -108,15 +108,13 @@ export default function Home() {
               </p>
               <div className="mt-6 space-y-4 text-lg leading-8 text-gray-600">
                 <p>
-                  It started when I installed a security system for my
-                  grandparents. My uncle and cousins wanted to keep an eye on
-                  them, but the technology felt overwhelming.
+                  It started when I installed an exterior security system for my 95-year-old grandpa. My aunt and uncle wanted to keep an eye on him, but the technology felt overwhelming.
                 </p>
                 <p>
-                  I realized that while the hardware exists, the{" "}
-                  <strong>bridge</strong> between buying a camera and actually
-                  having it work reliably on your phone is missing for many
-                  people.
+                  He often worried about whether the garage door was closed at night. Instead of him having to walk down to check, we installed a dedicated camera so he—and the rest of the family—could verify it instantly from their phones.
+                </p>
+                <p>
+                  I realized that after my aunt, uncle, and cousins all struggled to set it up, there was a massive gap. While the hardware exists, the <strong>bridge</strong> between buying a camera and actually having it work reliably for the whole family is missing for many people.
                 </p>
                 <p>
                   ProMount Security Cameras was built to provide that bridge. We
