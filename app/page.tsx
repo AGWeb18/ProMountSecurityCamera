@@ -180,7 +180,7 @@ export default function Home() {
                     Basic Watch
                   </h3>
                   <p className="mt-4 text-sm leading-6 text-gray-600">
-                    Essential protection for your home's primary entry points.
+                    Essential protection for your home&apos;s primary entry points.
                   </p>
                   <p className="mt-6 flex items-baseline gap-x-1">
                     <span className="text-4xl font-bold tracking-tight text-gray-900">
@@ -260,56 +260,6 @@ export default function Home() {
                     </li>
                     <li className="flex gap-x-3 text-blue-600 font-semibold">
                       <CheckIcon /> 24/7 Local Recording
-                    </li>
-                  </ul>
-                </div>
-                <a
-                  href="tel:17055302530"
-                  className="mt-8 block rounded-md bg-blue-600 px-3 py-2 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                >
-                  Call to Book
-                </a>
-              </div>
-
-              {/* Premium Tier */}
-              <div className="flex flex-col justify-between rounded-3xl bg-white p-8 ring-1 ring-gray-200 xl:p-10 shadow-sm">
-                <div>
-                  <h3 className="text-lg font-semibold leading-8 text-gray-900">
-                    Premium Shield
-                  </h3>
-                  <p className="mt-4 text-sm leading-6 text-gray-600">
-                    Maximum security for larger properties and extended
-                    families.
-                  </p>
-                  <p className="mt-6 flex items-baseline gap-x-1">
-                    <span className="text-4xl font-bold tracking-tight text-gray-900">
-                      $1,299
-                    </span>
-                    <span className="text-sm font-semibold leading-6 text-gray-600">
-                      CAD
-                    </span>
-                  </p>
-                  <ul
-                    role="list"
-                    className="mt-8 space-y-3 text-sm leading-6 text-gray-600"
-                  >
-                    <li className="flex gap-x-3 text-blue-600 font-bold">
-                      <CheckIcon /> Equipment Included
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon /> 6 Outdoor HD Cameras
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon /> 6 Users (Owner + 5 Family)
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon /> Priority Support
-                    </li>
-                    <li className="flex gap-x-3">
-                      <CheckIcon /> 2-Year Workmanship Warranty
-                    </li>
-                    <li className="flex gap-x-3 text-blue-600 font-semibold">
-                      <CheckIcon /> Advanced Motion Detection Setup
                     </li>
                   </ul>
                 </div>
