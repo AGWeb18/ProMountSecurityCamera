@@ -26,11 +26,14 @@ export default function Home() {
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
         >
-                    <div className="flex lg:flex-1">
-                      <a href="#" className="-m-1.5 p-1.5 text-2xl font-black tracking-tight text-blue-900 uppercase">
-                        ProMount<span className="text-blue-600">.</span>
-                      </a>
-                    </div>
+          <div className="flex lg:flex-1">
+            <a
+              href="#"
+              className="-m-1.5 p-1.5 text-2xl font-black tracking-tight text-blue-900 uppercase"
+            >
+              ProMount<span className="text-blue-600">.</span>
+            </a>
+          </div>
           <div className="hidden lg:flex lg:gap-x-8">
             <a
               href="#about"
@@ -102,34 +105,42 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-16 items-center">
             <div>
-              <h2 className="text-base font-semibold leading-7 text-blue-600 uppercase tracking-widest">About ProMount Security Cameras</h2>
+              <h2 className="text-base font-semibold leading-7 text-blue-600 uppercase tracking-widest">
+                About ProMount Security Cameras
+              </h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Born from a family need.
               </p>
               <div className="mt-6 space-y-4 text-lg leading-8 text-gray-600">
                 <p>
-                  It started when I installed an exterior security system for my 95-year-old grandpa. My aunt and uncle wanted to keep an eye on him, but the technology felt overwhelming.
+                  It started when I installed an exterior security system for my
+                  95-year-old grandpa. My aunt and uncle wanted to keep an eye
+                  on him, but the technology felt overwhelming.
                 </p>
                 <p>
-                  He often worried about whether the garage door was closed at night. Instead of him having to walk down to check, we installed a dedicated camera so he—and the rest of the family—could verify it instantly from their phones.
+                  He often worried about whether the garage door was closed at
+                  night. Instead of him having to walk down to check, we
+                  installed a dedicated camera so he—and the rest of the
+                  family—could verify it instantly from their phones.
                 </p>
                 <p>
-                  I realized that after my aunt, uncle, and cousins all struggled to set it up, there was a massive gap. While the hardware exists, the <strong>bridge</strong> between buying a camera and actually having it work reliably for the whole family is missing for many people.
+                  I realized that after my aunt, uncle, and cousins all
+                  struggled to set it up, there was a massive gap. While the
+                  hardware exists, the <strong>bridge</strong> between buying a
+                  camera and actually having it work reliably for the whole
+                  family is missing for many people.
                 </p>
                 <p>
                   ProMount Security Cameras was built to provide that bridge. We
-                  don&apos;t just &quot;install cameras&quot;—we set up your peace of mind.
-                </p>
-                <p>
-                  Through years of service, I have identified the core user
-                  personas and their primary pain points. This analysis informs
-                  our tiered plan structure, ensuring each tier addresses
-                  distinct user needs and value propositions.
+                  don&apos;t just &quot;install cameras&quot;—we set up your
+                  peace of mind.
                 </p>
               </div>
             </div>
-                        <div className="bg-blue-50 rounded-3xl p-8 lg:p-12 border border-blue-100">
-                          <h3 className="font-bold text-blue-900 text-xl mb-4">The ProMount Security Cameras Promise</h3>
+            <div className="bg-blue-50 rounded-3xl p-8 lg:p-12 border border-blue-100">
+              <h3 className="font-bold text-blue-900 text-xl mb-4">
+                The ProMount Security Cameras Promise
+              </h3>
               <ul className="space-y-4">
                 <li className="flex gap-x-3 text-gray-700 font-medium">
                   <CheckIcon /> No confusing monthly subscriptions.
@@ -385,15 +396,17 @@ export default function Home() {
         </div>
 
         {/* Footer */}
-                        <footer className="bg-gray-900 py-12">
-                          <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                            <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-                              <span className="text-xl font-bold text-white tracking-tight uppercase">
-                                ProMount<span className="text-blue-500">.</span>
-                              </span>
-                              <p className="text-sm text-gray-400 text-center">
-                                &copy; {new Date().getFullYear()} ProMount Security Cameras. Professional Installation in Durham & Kawarthas.
-                              </p>              <div className="flex flex-col items-center md:items-end">
+        <footer className="bg-gray-900 py-12">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+              <span className="text-xl font-bold text-white tracking-tight uppercase">
+                ProMount<span className="text-blue-500">.</span>
+              </span>
+              <p className="text-sm text-gray-400 text-center">
+                &copy; {new Date().getFullYear()} ProMount Security Cameras.
+                Professional Installation in Durham & Kawarthas.
+              </p>{" "}
+              <div className="flex flex-col items-center md:items-end">
                 <a
                   href="tel:17055302530"
                   className="text-lg font-bold text-white hover:text-blue-400 transition"
