@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ProMount Security Cameras | Professional Installation Durham & Kawarthas",
-  description: "ProMount Security Cameras offers expert installation in the Kawarthas and Durham Region. We specialize in hardwired camera systems, not security guards.",
+  title: "ProMount Security Cameras | Residential & Commercial Installation Durham & Kawarthas",
+  description: "ProMount Security Cameras offers expert residential and commercial camera installation in the Kawarthas and Durham Region. Hardwired systems, no monthly fees.",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
               "@type": "HomeSecurityService",
               "name": "ProMount Security Cameras",
               "image": "https://promountsecurity.ca/logo.png",
-              "description": "Professional security camera installation in the Kawarthas and Durham Region. No monthly fees, local recording, and mobile access setup.",
+              "description": "Professional residential and commercial security camera installation in the Kawarthas and Durham Region. No monthly fees, local recording, and mobile access setup.",
               "telephone": "+1-705-530-2530",
               "priceRange": "$$",
               "areaServed": [
