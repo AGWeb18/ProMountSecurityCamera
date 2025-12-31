@@ -14,9 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    "ProMount Security Cameras | Residential & Commercial Installation Durham & Kawarthas",
-    description: "ProMount Security Cameras offers expert residential and commercial camera installation in the Kawarthas and Durham Region. Wired & Wire-Free systems, no monthly fees.",
+
+  title: "ProMount Security Cameras | Ontario, Canada | Durham & Kawarthas",
+
+  description: "Expert security camera installation serving Durham Region and the Kawarthas. Wired & Wire-Free systems for home and business.",
+
 };
 
 export default function RootLayout({
