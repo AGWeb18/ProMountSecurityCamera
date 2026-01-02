@@ -68,145 +68,33 @@ export default function Home() {
 
       <main className="isolate pt-20">
         {/* Hero Section */}
-        <div className="relative isolate pt-14">
-          <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
-            aria-hidden="true"
-          >
-            <div
-              className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-              style={{
-                clipPath:
-                  "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-              }}
-            />
-          </div>
-          
-          <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-32 grid lg:grid-cols-2 gap-12 items-center">
-            
-            {/* Left Column: Text */}
-            <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-              <div className="hidden sm:mb-8 sm:flex">
-                <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Serving Durham Region & The Kawarthas.{" "}
-                  <a href="#about" className="font-semibold text-blue-600">
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    Read our story <span aria-hidden="true">&rarr;</span>
-                  </a>
-                </div>
-              </div>
+        <div className="relative isolate px-6 pt-14 lg:px-8">
+          <div className="mx-auto max-w-2xl py-24 sm:py-32">
+            <div className="text-center">
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-                Smart Security. <br />
-                <span className="text-blue-600">No Monthly Fees.</span>
+                Professional Security,{" "}
+                <span className="text-blue-600 text-nowrap">Simplified.</span>
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Professional camera installation for your home, business, or cottage. 
-                We bridge the gap between complex technology and your peace of mind.
-                <strong> Own your equipment, own your data.</strong>
+                Expert camera installation for your home, business, or cottage.
+                Serving <strong>Durham Region</strong> and the{" "}
+                <strong>Kawarthas</strong> with reliable, professional service.
               </p>
-              <div className="mt-10 flex items-center gap-x-6">
+              <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
                 <a
                   href="tel:17055302530"
-                  className="rounded-full bg-blue-600 px-8 py-3.5 text-base font-bold text-white shadow-lg hover:bg-blue-500 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                  className="w-full sm:w-auto rounded-full bg-blue-600 px-8 py-3.5 text-base font-bold text-white shadow-lg hover:bg-blue-500 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 >
-                  Get a Free Quote
+                  Call (705) 530-2530
                 </a>
                 <a
                   href="#pricing"
                   className="text-sm font-semibold leading-6 text-gray-900"
                 >
-                  See Packages <span aria-hidden="true">→</span>
+                  View Packages <span aria-hidden="true">→</span>
                 </a>
               </div>
-              <div className="mt-8 flex items-center gap-4 text-sm text-gray-500">
-                <div className="flex -space-x-2">
-                  {[1, 2, 3, 4].map((i) => (
-                    <div key={i} className="h-8 w-8 rounded-full bg-gray-100 ring-2 ring-white flex items-center justify-center text-xs font-bold text-gray-400">
-                      ★
-                    </div>
-                  ))}
-                </div>
-                <p>Trusted by local families & businesses.</p>
-              </div>
             </div>
-
-            {/* Right Column: Visual (CSS Phone Mockup) */}
-            <div className="relative mx-auto w-full max-w-sm lg:max-w-none">
-              <div className="relative rounded-[2.5rem] bg-gray-900 p-4 shadow-2xl ring-1 ring-gray-900/10 sm:max-w-[320px] mx-auto border-[8px] border-gray-800">
-                <div className="rounded-[2rem] bg-white overflow-hidden h-[600px] flex flex-col relative">
-                  
-                  {/* Fake Phone Status Bar */}
-                  <div className="h-8 bg-gray-100 flex items-center justify-between px-6 text-[10px] font-bold text-gray-500">
-                    <span>9:41</span>
-                    <div className="flex gap-1">
-                      <span>LTE</span>
-                      <span>🔋</span>
-                    </div>
-                  </div>
-
-                  {/* App Header */}
-                  <div className="bg-white p-4 border-b border-gray-100 flex justify-between items-center">
-                    <span className="font-bold text-lg text-gray-900">Home</span>
-                    <div className="h-8 w-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-bold">P</div>
-                  </div>
-
-                  {/* Camera Feed 1 */}
-                  <div className="p-4 space-y-4">
-                    <div className="rounded-xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50 relative group">
-                      <div className="aspect-video bg-gray-200 flex items-center justify-center relative overflow-hidden">
-                        {/* Placeholder for camera view */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
-                        <svg className="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                        </svg>
-                        <div className="absolute top-2 right-2 bg-red-500 w-2 h-2 rounded-full animate-pulse"></div>
-                        <div className="absolute top-2 left-2 bg-black/50 text-white text-[10px] px-2 py-0.5 rounded backdrop-blur-md">Front Door • Live</div>
-                      </div>
-                      <div className="p-3 bg-white">
-                        <div className="flex justify-between items-center">
-                          <span className="font-semibold text-sm">Front Door</span>
-                          <span className="text-xs text-gray-500">Motion Detected</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Camera Feed 2 */}
-                     <div className="rounded-xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50 relative">
-                      <div className="aspect-video bg-gray-200 flex items-center justify-center relative">
-                         <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
-                         <svg className="w-12 h-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                        </svg>
-                        <div className="absolute top-2 left-2 bg-black/50 text-white text-[10px] px-2 py-0.5 rounded backdrop-blur-md">Driveway</div>
-                      </div>
-                       <div className="p-3 bg-white">
-                        <div className="flex justify-between items-center">
-                          <span className="font-semibold text-sm">Driveway</span>
-                          <span className="text-xs text-gray-500">Online</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* App Tab Bar */}
-                  <div className="mt-auto border-t border-gray-100 p-4 flex justify-around text-gray-400">
-                    <div className="flex flex-col items-center gap-1 text-blue-600">
-                       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" /></svg>
-                       <span className="text-[10px] font-medium">Home</span>
-                    </div>
-                     <div className="flex flex-col items-center gap-1">
-                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-                       <span className="text-[10px] font-medium">Events</span>
-                    </div>
-                     <div className="flex flex-col items-center gap-1">
-                       <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-                       <span className="text-[10px] font-medium">Settings</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
         </div>
 
@@ -239,8 +127,8 @@ export default function Home() {
                   I realized that after my aunt, uncle, and cousins all
                   struggled to set it up, there was a massive gap. While the
                   hardware exists, the <strong>bridge</strong> between buying a
-                  camera and actually having it work reliably for you and your staff/family is missing for many
-                  people.
+                  camera and actually having it work reliably for you and your
+                  staff/family is missing for many people.
                 </p>
                 <p>
                   ProMount Security Cameras was built to provide that bridge. We
@@ -279,7 +167,8 @@ export default function Home() {
                 Home & Business Packages
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600 font-semibold">
-                Hardware, installation, and setup are ALL included. Choose between Wired or Wireless options for your property.
+                Hardware, installation, and setup are ALL included. Choose
+                between Wired or Wireless options for your property.
               </p>
             </div>
 
@@ -291,7 +180,8 @@ export default function Home() {
                     Basic Watch
                   </h3>
                   <p className="mt-4 text-sm leading-6 text-gray-600">
-                    Essential protection for your property&apos;s primary entry points.
+                    Essential protection for your property&apos;s primary entry
+                    points.
                   </p>
                   <p className="mt-6 flex items-baseline gap-x-1">
                     <span className="text-4xl font-bold tracking-tight text-gray-900">
@@ -389,8 +279,8 @@ export default function Home() {
                     Premium Shield
                   </h3>
                   <p className="mt-4 text-sm leading-6 text-gray-600">
-                    Maximum security for larger properties and extended
-                    coverage needs.
+                    Maximum security for larger properties and extended coverage
+                    needs.
                   </p>
                   <p className="mt-6 flex items-baseline gap-x-1">
                     <span className="text-4xl font-bold tracking-tight text-gray-900">
@@ -493,7 +383,10 @@ export default function Home() {
               </dt>
               <dd className="mt-4 lg:col-span-7 lg:mt-0">
                 <p className="text-base leading-7 text-gray-600">
-                  Yes. We use outdoor-rated cameras designed for Canadian winters. For high-traffic areas, we recommend our Solar-Assist add-on to keep batteries charged even in sub-zero temperatures.
+                  Yes. We use outdoor-rated cameras designed for Canadian
+                  winters. For high-traffic areas, we recommend our Solar-Assist
+                  add-on to keep batteries charged even in sub-zero
+                  temperatures.
                 </p>
               </dd>
             </div>
@@ -504,8 +397,8 @@ export default function Home() {
               <dd className="mt-4 lg:col-span-7 lg:mt-0">
                 <p className="text-base leading-7 text-gray-600">
                   Absolutely. As part of our setup, we will help you invite
-                  family members or staff so everyone can keep an eye on things from
-                  their own phones.
+                  family members or staff so everyone can keep an eye on things
+                  from their own phones.
                 </p>
               </dd>
             </div>
